@@ -31,7 +31,7 @@ Tipp
 A függvényünk 4 lehetséges értéket adhat vissza. A "magas", "mély", stb. sztringek visszaadása helyett mi mást lehetne visszaadni? Hogyan lehetne a függvényünket elegánsabban megoldani?
 """
 def hangrend(word):
-    hr = ""#magas mely vegyes
+    hr = "semmilyen"#magas mely vegyes
     MELY_MGHK = 'aáoóuú'
     MAGAS_MGHK = 'eéiíöőüű'
     for char in word:
@@ -41,7 +41,6 @@ def hangrend(word):
         if char in MAGAS_MGHK:
             if hr == "mely" or hr == "vegyes": hr = "vegyes"
             else: hr = "magas"
-    if hr == "": hr = "semmilyen"
     return hr
 
 def main():
