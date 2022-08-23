@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 Írjunk egy függvényt, mely paraméterként megkapja egy gyémánt magasságát. A függvény ezek után rajzolja ki a gyémántot a következőképpen:
 

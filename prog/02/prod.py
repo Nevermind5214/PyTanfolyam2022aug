@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def prod(li):
     p = 1
     for n in li:

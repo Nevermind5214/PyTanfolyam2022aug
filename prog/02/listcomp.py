@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def f1():
     li = ['auto', 'villamos', 'metro']# → ['AUTO!', 'VILLAMOS!', 'METRO!']
     result = [s.upper() + "!" for s in li]

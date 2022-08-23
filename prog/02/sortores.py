@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 Az alábbi kódrészlet 100 db random számjegyet állít elő s nyomtat ki egymás mellé:
 

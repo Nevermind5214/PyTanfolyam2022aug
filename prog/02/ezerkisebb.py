@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 Ezernél kisebb pozitív egész számok (PE #1)
 

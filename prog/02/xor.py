@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 XOR
 A bool() beépített függvény eldönti a paraméterül kapott kifejezésről, hogy az igaz-e (True) vagy hamis (False).

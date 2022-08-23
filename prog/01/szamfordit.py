@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def ford(s):
     return s[::-1]
 

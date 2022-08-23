@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 PI = 3.14159
 
 def hello(name, color, obj):

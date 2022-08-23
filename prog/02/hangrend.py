@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 Döntsük el egy magyar szóról, hogy milyen hangrendű (mély, magas, vegyes, vagy semmilyen hangrendű).
 

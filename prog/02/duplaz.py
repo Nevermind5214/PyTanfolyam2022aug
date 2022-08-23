@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def duplaz(n):
     """Returns the double of the input number."""
     return 2 * n
