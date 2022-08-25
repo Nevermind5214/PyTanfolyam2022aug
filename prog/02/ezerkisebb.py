@@ -12,8 +12,8 @@ Oldjuk meg a problémát egy (azaz 1) sorban list comprehension segítségével.
 
 
 def main():
-    print(sum([n for n in range(0,10) if n % 3 == 0 or n % 5 == 0]))
-    print(sum([n for n in range(0,1000) if n % 3 == 0 or n % 5 == 0]))
+    print(sum([n for n in range(1,10) if n % 3 == 0 or n % 5 == 0]))
+    print(sum([n for n in range(1,1000) if n % 3 == 0 or n % 5 == 0]))
     
 if __name__ == "__main__":
     main()

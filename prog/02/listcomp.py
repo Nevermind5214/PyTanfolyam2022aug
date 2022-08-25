@@ -89,9 +89,7 @@ def f14():
 
 def f15():
     li = [1, 0, 1, 1, 0, 1, 0, 0]# → "10110100", vagyis a listában lévő számjegyeket fűzzük össze egy sztringgé
-    result = ""
-    for n in li:
-        result += str(n)
+    result="".join([str(n) for n in li])
     print(result)
     
 
