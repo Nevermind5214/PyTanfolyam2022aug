@@ -22,9 +22,10 @@ def hamming(w1,w2):
     if len(w1) != len(w2):
         print("A két szó egyenlő hosszú kell legyen!")
         sys.exit(1)
+        #return -1
     cnt = 0
-    for i in range(0, len(w1)):
-        if w1[i]!=w2[i]: cnt += 1
+    for ch1, ch2 in zip(w1,w2):
+        if ch1 != ch2: cnt += 1
     return cnt
 
 def main():
