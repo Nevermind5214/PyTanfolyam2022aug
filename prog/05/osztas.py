@@ -24,7 +24,8 @@ def main():
             szam1 = float(input("1. szam: "))
             szam2 = float(input("2. szam: "))
             result = szam1 / szam2
-            print('Az osztas eredmenye: {0:.2f}'.format(result))
+            #print('Az osztas eredmenye: {0:.2f}'.format(result))
+            print(f"{result=}")
             print('-' * 10)
         except ValueError:
             print("Hiba: számot adj meg!")
@@ -32,6 +33,11 @@ def main():
             print("Hiba: 0-val nem lehet osztani!")
         except KeyboardInterrupt:
             break
-
+        except:
+            print("Egyéb hiba")
+        else:
+            print("Minden oké")
+        finally:
+            print("END")
 if __name__ == "__main__":
     main()

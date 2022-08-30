@@ -1,0 +1,16 @@
+{
+    "last": "Doe",
+    "first": "John",
+    "age": 39,
+    "sex": "M",
+    "registered": true,
+    "salary": 70000,
+    "wife": {
+        "last": "Doe",
+        "first": "Jane",
+        "age": 20,
+        "sex": "F",
+        "registered": true,
+        "salary": 45000
+    }
+}
