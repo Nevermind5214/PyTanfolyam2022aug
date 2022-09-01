@@ -1,0 +1,5 @@
+elso sor
+second line.
+harmadik sor
+4th line.
+END
