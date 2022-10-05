@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 """
 Szavak előfordulási gyakorisága
 
@@ -65,22 +67,23 @@ the threshold. "You can tell me when I've worked through that," says he,
 looking as fierce as a commander."""
 
 def main():
-    szavak = TEXT
-
-    for irasjel in ['"',".",",","--","!","?",":",";"]:
-        szavak = szavak.replace(irasjel, "")
-
-    szavak = szavak.lower().split()
+    szavak = TEXT.lower().split()
+    szavak = [szo.strip('".,-!?:;') for szo in szavak]
 
     d = {}
     for szo in szavak:
-        if szo in d:
-            d[szo] += 1
-        else:
-            d[szo] = 1
+        d[szo] = d.get(szo, 0) + 1
 
+    barszo = []
+    bareloford = []
+    
     for szo, elofordulas in sorted(d.items()):
         print(szo, ' ', elofordulas)
+        barszo.append(szo)
+        bareloford.append(elofordulas)
+    
+    plt.bar(barszo, bareloford)
+    plt.show()
 
 if __name__ == '__main__':
     main()
