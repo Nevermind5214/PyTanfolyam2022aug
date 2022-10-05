@@ -65,7 +65,12 @@ the threshold. "You can tell me when I've worked through that," says he,
 looking as fierce as a commander."""
 
 def main():
-    szavak = TEXT.lower().split()
+    szavak = TEXT
+
+    for irasjel in ['"',".",",","--","!","?",":",";"]:
+        szavak = szavak.replace(irasjel, "")
+
+    szavak = szavak.lower().split()
 
     d = {}
     for szo in szavak:
